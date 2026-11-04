@@ -1,0 +1,42 @@
+.movies {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card {
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.movie1 {
+    background-color: pink;
+}
+
+.movie2 {
+    background-color: lightblue;
+}
+
+.movie3 {
+    background-color: lightgreen;
+}
+
+.movie4 {
+    background-color: beige;
+}
+
+.movie5 {
+    background-color: lavender;
+}
+
+.movie6 {
+    background-color: lightgray;
+}
+
+
